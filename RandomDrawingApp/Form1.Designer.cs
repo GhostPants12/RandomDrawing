@@ -39,7 +39,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(57, 313);
+            this.button1.Location = new System.Drawing.Point(48, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 47);
             this.button1.TabIndex = 0;
@@ -82,7 +82,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(128, 89);
+            this.label3.Location = new System.Drawing.Point(121, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 20);
             this.label3.TabIndex = 5;
@@ -90,7 +90,7 @@
             // 
             // Message
             // 
-            this.Message.Location = new System.Drawing.Point(12, 114);
+            this.Message.Location = new System.Drawing.Point(12, 157);
             this.Message.Name = "Message";
             this.Message.Size = new System.Drawing.Size(298, 193);
             this.Message.TabIndex = 6;
@@ -100,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(322, 372);
+            this.ClientSize = new System.Drawing.Size(322, 415);
             this.Controls.Add(this.Message);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.height);

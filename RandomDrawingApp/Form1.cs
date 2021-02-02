@@ -24,7 +24,7 @@ namespace RandomDrawingApp
             int imageHeight;
             if(!int.TryParse(this.width.Text, out imageWidth) || !int.TryParse(this.height.Text, out imageHeight))
             {
-                MessageBox.Show("Неверный формат разрешения (не число).", "Ошибка", MessageBoxButtons.OK);
+                MessageBox.Show("Wrong resolution format (not a number).", "Error", MessageBoxButtons.OK);
                 return;
             }
 
@@ -72,7 +72,7 @@ namespace RandomDrawingApp
         {
             if(bitmap.Height*bitmap.Width < message.Length)
             {
-                MessageBox.Show("Слишком маленькое разрешение.", "Ошибка", MessageBoxButtons.OK);
+                MessageBox.Show("Resolution is too low.", "Error", MessageBoxButtons.OK);
                 return;
             }
 
